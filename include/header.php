@@ -1,4 +1,4 @@
-<nav>
+<nav style="z-index: 10; ">
     <div class="nav-wrapper blue-grey darken-3">
         <a href="?page=home" class="brand-logo">
             <img width="20.8%" src="./img/vsc_logo.png" alt="Logo"">

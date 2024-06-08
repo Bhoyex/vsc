@@ -33,13 +33,15 @@ if (in_array("$page.func.php", $functions_file)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/materialize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="./js/materialize.js"></script>
     <title>VSC</title>
 </head>
 
 <body>
     <?php require_once("./include/header.php"); ?>
-    <div class="container">
+    <div class="container" >
         <?php require_once("./pages/$page.php"); ?>
     </div>
     <?php require_once("./include/footer.php"); ?>
